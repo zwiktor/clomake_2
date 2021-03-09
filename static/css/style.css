@@ -44,6 +44,30 @@ body {
     }
 }
 
+.header-title-yellow {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 72px;
+    line-height: 78px;
+    font-weight: 800;
+}
+
+@media (max-width: 770px) {
+    .header-title-yellow {
+        font-size: 48px;
+        line-height: 54px;
+        font-weight: 800;
+        letter-spacing: -1px;
+    }
+}
+@media (max-width: 460px) {
+    .header-title-yellow {
+        font-size: 30px;
+        line-height: 42px;
+        letter-spacing: 0px;
+    }
+}
+
 .header-subtitle {
     font-size: 14px;
     line-height: 24px;
@@ -97,6 +121,10 @@ body {
     .nav-bg {
         background-color: #212529 !important;
     }
+    .nav-bg-yellow {
+        background-color: #f6da00 !important;
+    }
+
 }
 
 .nav-button {
@@ -284,6 +312,12 @@ body {
     color: #f6da00;
 }
 
+.black-short-hr  {
+    padding-left: 10px;
+    letter-spacing: -2px;
+    color: #000;
+}
+
 .footer-text-yellow {
     margin-left: 5%;
     padding-top: 8%;
@@ -304,4 +338,294 @@ body {
     .footer-text {
     padding: 10px 30px;
 }
+}
+
+/* MARKA WEBSITE */
+
+.position-header-color {
+    background-color: #f6da00;
+    position: relative;
+        z-index: 1;
+}
+
+.row-nav-margin {
+    padding-top: 100px;
+    padding-left: 5%;
+}
+
+.link-yellow-header {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.header-paragraf-yellow {
+    margin: 40px 0;
+    color: #000;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.marka-section-title-con {
+    margin-left: 45px;
+    margin-top: 45px;
+    margin-bottom: 100px;
+}
+
+.marka-section-title {
+    color: #000;
+    font-size: 22px;
+    line-height: 36px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+@media (max-width: 540px) {
+    .marka-section-title-con {
+        margin: 15px;
+    }
+    .marka-section-title {
+    color: #000;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    text-align: justify;
+    }
+
+}
+.price-card {
+    height: 100%;
+    background-color: white;
+    padding: 50px 25px;
+    padding-bottom: 100px;
+    border: 1px solid #f7f7f7;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.05);
+    transition: box-shadow 200ms ease;
+}
+
+.price-card:hover {
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.14);
+}
+
+
+.price-card-title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.price-card-price {
+    font-size: 72px;
+    line-height: 78px;
+    font-weight: 800;
+}
+
+.price-card-grey-text {
+    color: #999;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+
+}
+
+hr:not([size]) {
+    height: 2px;
+}
+.price-card-line {
+    max-width: 380px;
+    color: #5ab963;
+    opacity: 0.9;
+}
+
+.price-card-list {
+    font-family: 'IBM Plex Mono', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.small-zl {
+    font-family: 'IBM Plex Mono', sans-serif;
+    color: #999;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.header-button-price {
+    margin-left: 10%;
+    margin-bottom: 5%;
+    width: 80%;
+}
+
+.card-wariant {
+    height: 100%;
+    margin-bottom: 30px;
+    padding: 40px 30px;
+    padding-bottom: 10px;
+    border: 1px solid #f7f7f7;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.wariant-text {
+    margin-bottom: 40px;
+    font-size: 38px;
+    line-height: 44px;
+    font-weight: 800;
+}
+
+@media (max-width: 500px) {
+    .wariant-text {
+        margin-bottom: 20px;
+        font-size: 24px;
+        line-height: 20px;
+        font-weight: 600;
+    }
+}
+
+.marka-text-section-title-header {
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 36px;
+}
+
+.marka-text-section-title-body {
+    font-size: 22px;
+    line-height: 36px;
+    font-weight: 300;
+}
+
+.marka-text-section-title {
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+@media (max-width: 750px) {
+    .marka-text-section-title {
+        margin: 5%;
+    }
+    .marka-text-section-title-header {
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .marka-text-section-title-body {
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 300;
+    }
+
+}
+
+.marka-text-section {
+    margin:5%;
+    margin-bottom: 10%;
+}
+
+.marka-text-section-header {
+    color: black;
+    margin-bottom: 5%;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.marka-text-section-text {
+    margin-left: -1px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.szycie-card {
+    height: 100%;
+    margin: 5%;
+    width: 85% ;
+    border: 1px solid #f7f7f7;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.szycie-card-left {
+    float: right;
+}
+
+@media (max-width: 550px) {
+   .szycie-card {
+        width: 90%;
+    }
+}
+
+.szycie-card-title {
+    margin: 4%;
+    font-weight: 800;
+    text-align: center;
+    font-size: 22px;
+    line-height: 36px;
+}
+
+.szycie-card-text {
+    margin:5% ;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.szycie-cards-header {
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 38px;
+    line-height: 44px;
+    font-weight: 700;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .szycie-cards-header {
+        font-size: 28px;
+        line-height: 34px;
+    }
+}
+
+.szycie-text-card {
+    height: 100%;
+    padding:10%;
+    padding-bottom: 5%;
+    box-shadow: 0 0 18px -14px #000;
+}
+
+.szycie-text-card-title {
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 700;
+
+}
+
+.szycie-text-card-text {
+    text-align: justify;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.marka-section-title-con-fix {
+    margin-bottom: 10%;
+}
+
+.products-margin {
+    margin: 0 10%;
+}
+
+.product-card {
+    margin: 3%;
+    background-color: white;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.product-card-title {
+    padding: 7% 9%;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 600;
+
 }
